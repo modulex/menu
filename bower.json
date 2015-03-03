@@ -1,26 +1,14 @@
 {
     "name": "modulex-menu",
     "author": "yiminghe <yiminghe@gmail.com>",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/kissyteam/menu.git"
-    },
-    "ignore": [
-        "**/*",
-        "!build/**/*",
-        "!lib/**/*",
-        "!meta/**/*",
-        "!index.js"
-    ],
     "dependencies": {
         "modulex": "*",
-        "modulex-feature": "modulex-feature#1.x",
-        "modulex-ua": "modulex-ua#1.x",
-        "modulex-component": "modulex-component#1.x"
+        "modulex-feature": "modulex/feature#1.x",
+        "modulex-ua": "modulex/ua#1.x",
+        "modulex-component": "modulex/component#1.x"
     },
     "devDependencies": {
-        "modulex-css": "modulex-css#1.x",
-        "modulex-separator": "modulex-separator#1.x"
+        "modulex-css": "modulex/css#1.x",
+        "modulex-separator": "modulex/separator#1.x"
     }
 }
